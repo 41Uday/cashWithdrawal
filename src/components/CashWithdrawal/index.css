@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  height: 500px;
+  width: 500px;
+  background-color: #150b3e;
+  border-radius: 15px;
+}
+.inner-card {
+  display: flex;
+}
+.para {
+  height: 60px;
+  width: 60px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  margin: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.head {
+  margin-top: 57px;
+  font-size: 23px;
+  color: #c7d2fe;
+  font-family: 'Roboto';
+}
+.inner-card-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.para-2 {
+  font-size: 20px;
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+.para-3 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.para-4 {
+  font-family: 'Roboto';
+  color: #c7d2fe;
+  margin-left: 400px;
+}
+.head-2 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+.para-5 {
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  margin-left: 40px;
+  font-size: 16px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex-wrap: wrap;
+}
